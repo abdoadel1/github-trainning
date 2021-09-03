@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#services {
+    padding: 60px 0;
+}
+#services .s-title{
+    font-size: .97rem;
+}
+#services .icon  {
+    color: #428bca;
+    font-size: 36px;
+    line-height: 1;
+    float: left;
+}
+#services .title {
+    margin-left: 60px;
+   
+}
+#services .title a{
+    text-decoration: none;
+    color: black;
+}
+#services .description{
+    margin-left: 60px;
+    color: rgb(51, 46, 46);
+}
+#services .icon-card{
+    
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-main-color {
+color: #428bca;;
+}
