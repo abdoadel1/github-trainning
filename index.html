@@ -1,105 +1,206 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/all.min.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
 </head>
+
 <body>
-    
-  
-  <!-- Hazem Ehab Part -->
+    <!-- Mario Samir Part -->
 
-  <section id="about" class="p-5">
-    <div class="container">
-      <div class="row">
-        <div class="imgpart col-6">
-          <img src="img/about.jpg" class="w-100">
+
+    <div id="portfolio" class="portfolio">
+
+        <div class="headerOfPortfolio text-center">
+            <h2>Portfolio</h2>
+            <h3>Check our <span>Portfolio</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, voluptatibus eum voluptas eveniet et, vero in dolorum nulla magnam nisi voluptatum. Eveniet veniam iusto voluptate nam placeat recusandae voluptatibus earum?</p>
+
         </div>
-        <div class="textpart col-6 pt-3 ps-5">
-          <h3 class="pb-3">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-          <p class="pb-3">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
-          <div class="d-flex mb-3">
-            <div class="pe-3"><i class="fas fa-fingerprint fa-3x"></i></div>
-            <div>
-              <h4>Lorem Ipsum</h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+
+        <div class="navsPart">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="ALL-tab" data-bs-toggle="tab" data-bs-target="#ALL" type="button" role="tab" aria-controls="ALL" aria-selected="true">ALL</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="APP-tab" data-bs-toggle="tab" data-bs-target="#APP" type="button" role="tab" aria-controls="APP" aria-selected="false">APP</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="CARD-tab" data-bs-toggle="tab" data-bs-target="#CARD" type="button" role="tab" aria-controls="CARD" aria-selected="false">CARD</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="WEB-tab" data-bs-toggle="tab" data-bs-target="#WEB" type="button" role="tab" aria-controls="WEB" aria-selected="false">WEB</button>
+                </li>
+            </ul>
+
+
+            <!-- all -->
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="ALL" role="tabpanel" aria-labelledby="ALL-tab">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 py-3">
+
+                                <div class="item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="imgs/works/portfolio-1.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 py-3">
+
+                                <div class="item" type="button" data-bs-toggle="modal" data-bs-target="#test">
+                                    <img src="imgs/works/portfolio-2.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 py-3">
+
+                                <div class="item">
+                                    <img src="imgs/works/portfolio-3.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+
+                                <div class="item">
+                                    <img src="imgs/works/portfolio-4.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+
+                                <div class="item">
+                                    <img src="imgs/works/portfolio-5.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- app -->
+                <div class="tab-pane fade" id="APP" role="tabpanel" aria-labelledby="APP-tab">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 py-3">
+
+                                <div class="item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="imgs/works/portfolio-1.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 py-3">
+
+                                <div class="item">
+                                    <img src="imgs/works/portfolio-3.jpg" alt="item" class="img-fluid" />
+                                    <div class="imageLayer">
+                                        <p>APP 1</p>
+                                        <i class=" fas fa-plus "></i>
+                                        <h6>APP</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="d-flex mb-3">
-            <div class="pe-3"><i class="fas fa-gift fa-3x"></i></div>
-            <div>
-              <h4>Lorem Ipsum</h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <!-- card -->
+            <div class="tab-pane fade" id="CARD" role="tabpanel" aria-labelledby="CARD-tab">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4 py-3">
+
+                            <div class="item">
+                                <img src="imgs/works/portfolio-4.jpg" alt="item" class="img-fluid" />
+                                <div class="imageLayer">
+                                    <p>APP 1</p>
+                                    <i class=" fas fa-plus "></i>
+                                    <h6>APP</h6>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="d-flex">
-            <div class="pe-3"><i class="fas fa-atom fa-3x"></i></div>
-            <div>
-              <h4>Lorem Ipsum</h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+
+            <!-- web -->
+            <div class="tab-pane fade" id="WEB" role="tabpanel" aria-labelledby="WEB-tab">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-md-4">
+
+                            <div class="item">
+                                <img src="imgs/works/portfolio-6.jpg" alt="item" class="img-fluid" />
+                                <div class="imageLayer">
+                                    <p>APP 1</p>
+                                    <i class=" fas fa-plus "></i>
+                                    <h6>APP 1</h6>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-          </div>
+
         </div>
-      </div>
+
     </div>
-  </section>
 
-    <section id="services" class="services">
-        <div class="container-fluid">
-  
-          <div class="text-center">
-            <h2 class="text-main-color s-title">Services</h2>
-            <h3>Check our <span class="text-main-color">Services</span></h3>
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-          </div>
-  
-          <div class="row justify-content-center">
-            <div class="col-xl-10">
-              <div class="row">
-                <div class="col-lg-4 icon-card">
-                <div class="icon"><i class="fas fa-chart-pie"></i></div> 
-                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                  <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </div>
-                <div class="col-lg-4 icon-card">
-                  <div class="icon"><i class="fas fa-layer-group"></i></div>
-                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                  <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-                <div class="col-lg-4 icon-card">
-                  <div class="icon"><i class="fas fa-highlighter"></i></div>
-                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                  <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                </div>
-                <div class="col-lg-4 icon-card">
-                  <div class="icon"><i class="fas fa-vector-square"></i></div>
-                  <h4 class="title"><a href="">Magni Dolores</a></h4>
-                  <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-lg-4 icon-card">
-                  <div class="icon"><i class="fas fa-fingerprint"></i></div>
-                  <h4 class="title"><a href="">Nemo Enim</a></h4>
-                  <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-                <div class="col-lg-4 icon-card">
-                  <div class="icon"><i class="fas fa-procedures"></i></div>
-                  <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                  <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-        </div>
-      </section>
-
-    <script src="js/all.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
+</html>
+
 </html>
