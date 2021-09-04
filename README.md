@@ -1,2 +1,2 @@
-# github-trainning-edit
- M
+# random-quotes
+this site give u random quotes
